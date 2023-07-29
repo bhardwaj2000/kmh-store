@@ -10,6 +10,7 @@ export const setProducts = (products) => {
     };
 };
 
+// it ia an action for selected product and we pass selected product
 export const selectedProduct = (product) => {
     return {
         type: ActionTypes.SELECTED_PRODUCT,
